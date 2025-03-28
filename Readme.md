@@ -46,7 +46,7 @@ Stryx/
 ## **⚡ Getting Started**
 ### **🔹 Build & Install**
 ```sh
-git clone https://github.com/yourusername/Stryx.git
+git clone https://github.com/kashan16/Stryx.git
 cd Stryx
 mkdir build && cd build
 cmake ..
