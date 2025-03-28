@@ -1,0 +1,38 @@
+# Compiled binaries
+*.out
+*.o
+*.so
+*.exe
+*.dll
+
+# Build directories
+/build/
+/bin/
+/target/
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Rust-specific ignores
+Cargo.lock
+target/
+
+# CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
