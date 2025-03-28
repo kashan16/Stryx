@@ -36,3 +36,6 @@ Makefile
 *.swo
 .DS_Store
 Thumbs.db
+
+# gitignore
+.gitignore
