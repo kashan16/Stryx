@@ -1,5 +1,3 @@
-Here's a well-structured `README.md` for your Stryx programming language project:
-
 ---
 
 # **Stryx - A Modern, Strictly-Typed Programming Language** 🚀  
