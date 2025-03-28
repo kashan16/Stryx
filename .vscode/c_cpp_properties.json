@@ -1,0 +1,17 @@
+"configrations" : [
+    {
+        "name" : "Linux",
+        "includePath" : [
+            "${workspaceFolder}/src/**",
+            "${workspaceFolder}/src/frontend",
+            "/usr/include",
+            "/usr/local/include"
+        ],
+        "defines" : [],
+        "compilerPath" : "/usr/bin/g++",
+        "cStandard" : "c17",
+        "cppStandard" : "c++17",
+        "intelliSenseMode" : "linux-gcc-x64"
+    }
+],
+"version" : 4
