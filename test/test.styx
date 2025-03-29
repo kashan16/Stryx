@@ -1,9 +1,9 @@
 fn main() {
-    let x = 10;
-    let y = 20.5;
-    let name = "Stryx";
+    let a = 10;
+    var b = 20.5;
 
-    if x < y {
-        return x + y;
-    }
+    b = 50;
+    a = 30;
+
+    return b;
 }
