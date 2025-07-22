@@ -13,6 +13,7 @@ std::unordered_map<std::string, TokenType> keywords = {
     {"for", TokenType::FOR},
     {"while", TokenType::WHILE},
     {"break", TokenType::BREAK},
+    {"match" , TokenType::MATCH},
     {"continue", TokenType::CONTINUE},
     {"var",TokenType::VAR}
 };
@@ -90,6 +91,7 @@ Token Lexer::nextToken() {
         case '=' :
             advance();
             if(currentChar == '=') { advance(); return Token(TokenType::EQUAL,"==",line); }
+            if(currentChar == '>') { advance(); return Token(TokenType::ARROW,"=>",line); }
             return Token(TokenType::ASSIGN,"=",line);
         case '!' :
             advance();
@@ -112,6 +114,9 @@ Token Lexer::nextToken() {
         case ',' : advance(); return Token(TokenType::COMMA,",",line);
         case ';' : advance(); return Token(TokenType::SEMICOLON,";",line);
         case '\0' : advance(); return Token(TokenType::END_OF_FILE,"EOF",line);
+        case ':' : advance(); return Token(TokenType::COLON , ":" , line);
+        case '?' : advance(); return Token(TokenType::QUESTION , "?" , line);
+        case '_' : advance(); return Token(TokenType::UNDERSCORE,"_",line);
         default :
             std::cerr<<"Unexpected character : "<<currentChar<<" at line "<<line<<"\n";
             advance();
