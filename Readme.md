@@ -1,6 +1,6 @@
 # Stryx - A Modern, Strictly-Typed Programming Language
 
-Stryx is a modern, general-purpose programming language designed to simplify C++ complexities while maintaining strict type safety, expressiveness, and developer productivity. It features an intuitive syntax with modern programming constructs and strong error handling.
+Stryx is a modern, general-purpose programming language designed to simplify C++ while maintaining strict type safety, expressiveness, and developer productivity. It features an intuitive syntax with modern programming constructs and strong error handling.
 
 ## Features
 
